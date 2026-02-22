@@ -43,7 +43,7 @@ async function startServer() {
 
     //Start Express server
     app.listen(process.env.PORT, () => {
-      console.log(`🚀 Server ready at http://localhost:${process.env.PORT}/graphql`);
+      console.log(` Server ready at http://localhost:${process.env.PORT}/graphql`);
       //Connect to MongoDB Atlas
       try {
           connectDB()
